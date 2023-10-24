@@ -15,22 +15,22 @@ pip install -r requirements.txt
 Para utilizar VulnScanner:
 
 ```bash
-./vulnscanner.py [IP o DOMINIO OBJETIVO]
+./vulnscanner_v1.py [IP o DOMINIO OBJETIVO]
 ```
 
 Por ejemplo:
 ```bash
-./vulnscanner.py example.com
+./vulnscanner_v1.py example.com
 ```
 o
 ```bash
-./vulnscanner.py X.X.X.X
+./vulnscanner_v1.py X.X.X.X
 ```
 
 
 ## Estructura del Proyecto
 
-- **vulnscanner.py**: El script principal de la herramienta.
+- **vulnscanner_v1.py**: El script principal de la herramienta.
 - **/test**: Contiene pruebas unitarias para la herramienta.
 - **/examples**: Ejemplos de cómo usar la herramienta.
 

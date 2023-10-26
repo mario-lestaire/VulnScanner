@@ -8,7 +8,7 @@ class VulnScanner:
         self.target = target
 
     def scan(self):
-        command = ["nmap", "-Pn", "-T4", "-F", "-sV", self.target]
+        command = ["nmap", "-Pn", "-T4", "-sV", self.target, "-p-"]
         
         try:
             output = subprocess.check_output(command).decode("utf-8")
